@@ -1,0 +1,27 @@
+body {
+    background-color: #4CC9F0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.text {
+    color: #3A0CA3;
+}
+
+img {
+    border: 2px rgb(114, 9, 183) solid;
+    width: 20rem;
+    border-radius: 50%;
+}
