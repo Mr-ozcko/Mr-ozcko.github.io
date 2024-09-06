@@ -1,1 +1,1 @@
-https://Mr-ozcko.github.io
+https://mr-ozcko.github.io/
