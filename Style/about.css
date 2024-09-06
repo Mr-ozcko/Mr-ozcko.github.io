@@ -5,6 +5,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .main {
@@ -19,7 +21,7 @@ body {
 .text {
     
     width: 50%;
-    color: #3A0CA3;
+    color: black;
     text-align: justify;
     display: flex;
     flex-direction: column;

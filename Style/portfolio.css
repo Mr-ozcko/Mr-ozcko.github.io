@@ -5,6 +5,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .main {
@@ -18,7 +20,7 @@ body {
 
 .text {
     width: 50%;
-    color: #3A0CA3;
+    color: black;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -26,7 +28,7 @@ body {
 }
 
 .work {
-    color: #3f37c9;
+    color: black;
     width: 50%;
     text-align: center;
     display: flex;
@@ -37,4 +39,18 @@ body {
 .work a {
     color:aquamarine;
     text-decoration: underline;
+}
+
+.port{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    margin: 25px;
+}
+
+.img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
 }
